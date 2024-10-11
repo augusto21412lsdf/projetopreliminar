@@ -1,27 +1,17 @@
-#container {
-  text-align: center;
 
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+.container{
+  position: initial;
 }
-
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
+.img{
+  width: 150px;
+  height: 150px;
 }
-
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
-  margin: 0;
+ion-content {
+  --background: #FFEF57;
 }
-
-#container a {
-  text-decoration: none;
+.italic{
+  position: relative;
+}
+ion-content::part(scroll) {
+  color: #000000;
 }
